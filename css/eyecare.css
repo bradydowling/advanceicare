@@ -1,0 +1,7 @@
+.jumbotron{
+	background-image: url('../img/advance.jpg');
+	background-size: 100%;
+}
+#facebook:hover{
+    content:"Yolo";
+}
