@@ -2,6 +2,20 @@
 	background-image: url('../img/advance.jpg');
 	background-size: 100%;
 }
-#facebook:hover{
-    content:"Yolo";
+/*
+#facebook{
+    background-color:#D9EDF7;
+    color:#65738F;
 }
+#facebook:hover{
+    background-color:#C4E3F3;
+}
+#contact{
+    background-color:blue;
+    color:white;
+}
+#contact:hover{
+    background-color:white;
+    color:black;
+}
+*/
