@@ -1,0 +1,262 @@
+body {
+    padding-top: 50px;
+    /*background-color: #e8ebef;*/
+    font-family: 'Open Sans', Helvetica;
+}
+.content {
+    /*-webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.74);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.74);
+    box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.74);*/
+    background-color:white;
+    background-image: url('../img/office.jpg');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.jumbotron.first {
+    background-image: url('../img/AICbanner.jpg');
+}
+.jumbotron.second {
+    background-image: url('');
+}
+.jumbotron.third {
+    background-image: url('../img/desk.jpg');
+}
+.col-md-adjust {
+    padding-right: 0;
+    padding-left: 0;
+}
+.img-adjust {
+	max-width: 100%;
+	max-height: 484px;
+}
+footer.landing {
+    background-color: black;
+    margin: 0;
+	color: #FFFFFF;
+}
+.navbar .navbar-header .navbar-brand img {
+    max-height:43px;
+    margin-top: -14px;
+}
+.eye-exam {
+    line-height: 75%;
+    letter-spacing: 10px;
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    transition: all 0.2s ease-in-out 0.2s;
+	-webkit-transition: all 0.2s ease-in-out 0.2s;
+}
+.eye-exam:hover {
+    color: #000;
+    text-shadow: none;
+}
+
+/*
+Blues - primary
+#5f80cf - faded navy
+#3a62c1 - full navy
+
+Reds - secondary
+#9F0802 - deep red lipstick
+
+#FB4A4A - 10% lighter
+#e13030 - faded brick
+#D23A2C - 10% darker
+
+#D23A2C - red
+*/
+
+/* Generated at http://twbscolor.smarchal.com/ */
+.navbar-red {
+	background-color: #e8ebef;
+	border: none;
+	font-family: 'Varela Round', sans-serif;
+	text-decoration: none;
+}
+.navbar-red .navbar-brand {
+	color: #ffffff;
+}
+.navbar-red .navbar-brand:hover, .navbar-red .navbar-brand:focus {
+	color: #ffffff;
+}
+.navbar-red .navbar-text {
+	color: #000000;
+}
+.navbar-red .navbar-nav > li > a {
+    transition: all 0.1s ease-in-out 0s;
+	-webkit-transition: all 0.1s ease-in-out 0s;
+	/* Do we want the above transition? Definitely want to change so it doesn't happen on the active one */
+	color: #000000;
+}
+.navbar-red .navbar-left > li:not(.active) > a:hover, .navbar-red .navbar-left > li:not(.active) > a:focus {
+	border-bottom: 5px solid #e13030;
+	padding-bottom:10px;
+	background-color: #e8ebef;
+}
+/* Social button styling */
+.navbar-red .navbar-right > li:not(.active) > a:hover, .navbar-red .navbar-left > li:not(.active) > a:focus {
+	/*border-bottom: 5px solid #e8ebef;
+	padding-bottom:10px;*/
+}
+.navbar-right i {
+    color: #FFFFFF;
+}
+.navbar-right .facebook a {
+    background-color: #3A62C1;
+}
+.navbar-right .facebook:hover a {
+    background-color: #3A62C1;
+}
+.navbar-right .google-plus a {
+    background-color: #9F0802;
+}
+.navbar-right .google-plus:hover a {
+    background-color: #9F0802;
+}
+.navbar-right .email a {
+    background-color: #000000;
+}
+.navbar-right .email:hover a {
+    background-color: #000000;
+}
+.navbar-red .navbar-nav > .active > a, .navbar-red .navbar-nav > .active > a:hover, .navbar-red .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #e13030;
+}
+.navbar-red .navbar-nav > .open > a, .navbar-red .navbar-nav > .open > a:hover, .navbar-red .navbar-nav > .open > a:focus {
+	color: #ffffff;
+	background-color: #e13030;
+}
+.navbar-red .navbar-toggle {
+	border-color: #e13030;
+}
+.navbar-red .navbar-toggle:hover, .navbar-red .navbar-toggle:focus {
+	background-color: #e13030;
+}
+.navbar-red .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-red .navbar-collapse,
+.navbar-red .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-red .navbar-link {
+	color: #ffffff;
+}
+.navbar-red .navbar-link:hover {
+	color: #ffffff;
+}
+
+@media (max-width: 767px) {
+	.navbar-red .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+	}
+	.navbar-red .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-red .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #ffffff;
+	}
+	.navbar-red .navbar-nav .open .dropdown-menu > .active > a, .navbar-red .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-red .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #ffffff;
+		background-color: #e13030;
+	}
+}
+
+.btn-aic-primary {
+	background: #5f80cf;
+	background-image: none;
+	border-width: 0px 1px 3px;
+	border-color: #3a62c1;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-decoration: none ! important;
+	text-shadow: none;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+}
+.btn-aic-primary:hover {
+	background: #3a62c1;
+	color: #fff;
+}
+
+.btn-aic-light {
+	background: #B5B8BC;
+	background-image: none;
+	border-width: 0px 1px 3px;
+	border-color: #828589;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-decoration: none ! important;
+	text-shadow: none;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+}
+.btn-aic-light:hover {
+	background: #828589;
+	color: #fff;
+}
+
+.btn-aic-transparent-primary {
+    border: 2px solid #5f80cf;
+	background-image: none;
+	color: #5f80cf;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-decoration: none ! important;
+	text-shadow: none;
+	transition: all 0.2s ease-in-out 0s;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+}
+.btn-aic-transparent-primary:hover {
+	-moz-box-shadow:    inset 0 0 5px #5f80cf;
+    -webkit-box-shadow: inset 0 0 5px #5f80cf;
+    box-shadow:         inset 0 0 5px #5f80cf;
+    border-color: #3a62c1;
+	color: #3a62c1;
+	text-shadow: none;
+}
+
+.btn-aic-secondary {
+	background: #FB4A4A;
+	background-image: none;
+	border-width: 0px 1px 3px;
+	border-color: #D23A2C;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-decoration: none ! important;
+	text-shadow: none;
+	transition: all 0.2s ease-in-out 0s;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+}
+.btn-aic-secondary:hover {
+	background: #D23A2C;
+	color: #fff;
+}
+
+.btn-aic-transparent-secondary {
+    border: 2px solid #e13030;
+	background-image: none;
+	color: #e13030;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-decoration: none ! important;
+	text-shadow: none;
+	transition: all 0.2s ease-in-out 0s;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+}
+.btn-aic-transparent-secondary:hover {
+	-moz-box-shadow:    inset 0 0 5px #5f80cf;
+    -webkit-box-shadow: inset 0 0 5px #5f80cf;
+    box-shadow:         inset 0 0 5px #5f80cf;
+    border-color: #D23A2C;
+	color: #D23A2C;
+	text-shadow: none;
+}
