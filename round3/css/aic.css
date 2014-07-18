@@ -22,7 +22,8 @@ body {
     background-repeat: no-repeat;
 }
 .jumbotron.first {
-    background-image: url('../img/AICbanner.jpg');
+    background-image: url('../img/fieldgirl.jpg');
+    background-position: top;
 }
 .jumbotron.second {
     margin-top: 100px;
@@ -35,7 +36,10 @@ body {
 .jumbotron h2 {
     margin-top: 50px;
 }
-
+.jumbotron .blurb {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
 
 .col-md-adjust {
     padding-right: 0;
